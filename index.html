@@ -1,0 +1,64 @@
+	<!DOCTYPE html>
+	<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+	<meta charset="utf-8">
+	<meta name="author" content="Віктор Швидкий, vV0rkman">
+ 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  	<link rel="stylesheet" href="default.css">
+	<script src="js/script.js"></script>
+	<title>Victor_S.com</title>	
+
+		<header>
+		<div><a href="#"><img id="logo" src="img/logo2.png" alt="logo"></a></div>
+		<div class="buttons">
+		<a href="#">all photos</a>
+		<a href="#about">about</a>
+		<a href="#contact">contact</a>
+		</div>
+		<hr>
+			<div id="contact">
+			<p>Skype: <a href="skype:vv0rkman?chat">vv0rkman</a></p> 
+			<p>Gmail: <a href="mailto:vv0rkman@gmail.com?subject=Portfolio site">vv0rkman@gmail.com</a></p>
+			<p>VK.com: <a href="www.vk.com/victor_shv">vk.com/victor_shv</a></p>
+			<hr>
+			</div>
+		</header>
+
+		<main id="container">
+			<div id="items1">
+
+					<div id="about">
+       					<img src="img/user-picture.png" alt="user">  
+						<p>Hello! My name is Victor Shvydkyi</p>
+						<p>It's my Freetime project</p>	
+					</div>
+				<div class="img" style="background-image:url('img/preview/preview (1).jpg" onclick="fullscr(1);"></div>	
+				<div class="img" style="background-image:url('img/preview/preview (5).jpg" onclick="fullscr(5);"></div>		
+			</div>
+			<div id="items2">
+				<div class="img" style="background-image:url('img/preview/preview (4).jpg" onclick="fullscr(4);"></div>	
+				<div class="img" style="background-image:url('img/preview/preview (6).jpg" onclick="fullscr(6);"></div>
+			</div>
+			<div id="items3">
+				<div class="img" style="background-image:url('img/preview/preview (3).jpg" onclick="fullscr(3);"></div>	
+				<div class="img" style="background-image:url('img/preview/preview (2).jpg" onclick="fullscr(2);"></div>	
+				
+			</div>
+		</main>
+
+	<div id="fullscr" onclick="exit();">
+		<span class="helper"></span>
+		<img id="fullscr_img" src="img/spin.gif" alt="Please, wait...">
+		<img id="close" src="img/close.png" alt="close" title="Close window"  onclick="exit();">
+		<img id="download" src="img/download.png" alt="download" title="Download high-resolution image"  onclick="download();">
+	</div>
+
+	<footer>
+	<div>
+	<span>&#169;</span><span itemprop="copyrightHolder"> Copyright Victor_S. <span itemprop="copyrightYear">2016</span> Site by Victor_S.</span>
+	</div>
+	<div id="up">
+		<a href="" onclick="document.body.scrollTop;">&#x2191; UP &#x2191;</a>
+	</div>
+	</footer>
+
+	</html>
