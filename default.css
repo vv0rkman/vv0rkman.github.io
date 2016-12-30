@@ -71,8 +71,8 @@ main{flex-direction:column;}
 	-ms-justify-content: center;
 	justify-content: center;
 }
-.img{width:85vw;height:85vw;opacity:1;margin:.7%;}
-.buttons{display:flex;flex-direction:column;text-align:center;margin:10px;}
+.img{width:65vw;height:65vw;opacity:1;margin:.7%;}
+.buttons{display:flex;flex-direction:column;text-align:center;margin:1px;}
 .buttons a{padding:17px;margin:0;}
 .buttons a:hover{background-color:#f3f3f3;}
 }
