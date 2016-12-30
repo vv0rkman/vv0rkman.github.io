@@ -21,6 +21,12 @@ main{
 	-moz-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
+
+
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
 }
 hr{border:0px;height:0px;border-top:1px solid rgba(0, 0, 0, 0.1);border-bottom:1px solid rgba(255, 255, 255, 0.3);}
 #logo{width:38%;}
@@ -58,14 +64,11 @@ a{color:#707070;text-decoration:none;}
 #up{background-color:#fff;position:relative;right:0;bottom:0;}
 
 @media all and (orientation:portrait)  {
-main{flex-direction:column; 
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-justify-content: center;
-   justify-content: center;}
+main{flex-direction:column;}
 #logo{width:600px;}
 .img{width:90vw;height:90vw;opacity:1;margin:.7%;}
 .buttons{display:flex;flex-direction:column;text-align:center;margin:6px;}
 .buttons a{padding:17px;margin:0;font-size:32px;}
 .buttons a:hover{background-color:#f3f3f3;}
+footer{font-size:32px;}
 }
