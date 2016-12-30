@@ -58,19 +58,12 @@ a{color:#707070;text-decoration:none;}
 #up{background-color:#fff;position:relative;right:0;bottom:0;}
 
 @media all and (orientation:portrait)  {
-main{flex-direction:column;}
+main{flex-direction:column; 
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;}
 #logo{width:600px;}
-.container{
-	align-items: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	-webkit-box-align: center;
-
-	-webkit-justify-content: center;
-	-moz-justify-content: center;
-	-ms-justify-content: center;
-	justify-content: center;
-}
 .img{width:90vw;height:90vw;opacity:1;margin:.7%;}
 .buttons{display:flex;flex-direction:column;text-align:center;margin:6px;}
 .buttons a{padding:17px;margin:0;font-size:32px;}
