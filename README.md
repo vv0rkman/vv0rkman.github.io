@@ -2,7 +2,7 @@
 
 <img src="https://github.com/vv0rkman/vv0rkman.github.io/blob/master/img/logo2.png" style="width:40%; margin:0 auto;">
 
-<img src="https://github.com/vv0rkman/vv0rkman.github.io/blob/master/main.png">
+<img src="https://github.com/vv0rkman/vv0rkman.github.io/blob/master/maincut.png">
 
 Author: Victor Shvydkyi
 
