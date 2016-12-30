@@ -14,13 +14,13 @@ for (i=0;i<3;i++){
 }
 };
 
-var wsize=300, l;
+var wsize=200, l;
 window.onscroll = function(){
 	if ((document.body.scrollTop > wsize || document.documentElement.scrollTop > wsize)&&(c<=77)){
 		for (l=1;l<=3;l++){
 			loadIMG("items"+l);
 		}
-		wsize+=800;
+		wsize+=900;
 	document.getElementById("up").style.position="fixed";}
 };
 

@@ -73,6 +73,6 @@ main{flex-direction:column;}
 }
 .img{width:80vw;height:80vw;opacity:1;margin:.7%;}
 .buttons{display:flex;flex-direction:column;text-align:center;margin:6px;}
-.buttons a{padding:17px;margin:0;font-size:1.6em;}
+.buttons a{padding:17px;margin:0;font-size:32px;}
 .buttons a:hover{background-color:#f3f3f3;}
 }
