@@ -25,7 +25,7 @@ main{
 hr{border:0px;height:0px;border-top:1px solid rgba(0, 0, 0, 0.1);border-bottom:1px solid rgba(255, 255, 255, 0.3);}
 #logo{width:38%;}
 a{color:#707070;text-decoration:none;}
-#contact, #about{height:0px;visibility:hidden;background-color:#f5f5f5;
+#contact, #about{height:0px;visibility:hidden;
     transition: all 1s linear;
     -webkit-transition: all 1s linear; /** Chrome & Safari **/
     -moz-transition: all 1s linear; /** Firefox **/
@@ -57,7 +57,7 @@ a{color:#707070;text-decoration:none;}
 #fullscr_img{max-height:95%;vertical-align:middle;color:#eee;}
 #up{background-color:#fff;position:relative;right:0;bottom:0;}
 
-@media all and (max-width: 800px) {
+@media handled and (max-width: 800px)  and (orientation: portrait)  {
 main{flex-direction:column;}
 #logo{width:400px;}
 .img{margin:.7%;width:700px;height:700px;opacity:1;}
