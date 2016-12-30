@@ -57,7 +57,7 @@ a{color:#707070;text-decoration:none;}
 #fullscr_img{max-height:95%;vertical-align:middle;color:#eee;}
 #up{background-color:#fff;position:relative;right:0;bottom:0;}
 
-@media screen and (orientation:portrait)  {
+@media all and (orientation:portrait)  {
 main{flex-direction:column;}
 #logo{width:400px;}
 .img{margin:.7%;width:700px;height:700px;opacity:1;}
