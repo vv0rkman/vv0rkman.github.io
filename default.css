@@ -62,6 +62,7 @@ a{color:#707070;text-decoration:none;}
 .helper{display:inline-block;height:100%;vertical-align:middle;}
 #fullscr_img{max-height:95%;vertical-align:middle;color:#eee;}
 #up{position:relative;right:0;bottom:0;}
+#up img{width:40%;}
 
 @media all and (orientation:portrait)  {
 main{flex-direction:column;}
