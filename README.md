@@ -1,5 +1,7 @@
 <p>Personal Minimalist Portfolio Website created with HTML5/CSS3 and JavaScript</p>
 
+<img src="https://github.com/vv0rkman/vv0rkman.github.io/blob/master/img/logo2.png" style="width:40%; margin:0 auto;">
+
 <img src="https://github.com/vv0rkman/vv0rkman.github.io/blob/master/main.png">
 
 Author: Victor Shvydkyi
