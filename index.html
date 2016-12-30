@@ -10,9 +10,9 @@
 		<header>
 		<div><a href="#"><img id="logo" src="img/logo2.png" alt="logo"></a></div>
 		<div class="buttons">
-		<a href="#">all photos</a>
-		<a href="#about">about</a>
-		<a href="#contact">contact</a>
+		<a href="javascript:hideAll();">all photos</a>
+		<a href="javascript:showIT('about');">about</a>
+		<a href="javascript:showIT('contact');">contact</a>
 		</div>
 		<hr>
 			<div id="contact">
@@ -21,16 +21,16 @@
 			<p>VK.com: <a href="www.vk.com/victor_shv">vk.com/victor_shv</a></p>
 			<hr>
 			</div>
-		</header>
 
-		<main id="container">
-			<div id="items1">
-
-					<div id="about">
+				<div id="about">
        					<img src="img/user-picture.png" alt="user">  
 						<p>Hello! My name is Victor Shvydkyi</p>
 						<p>It's my Freetime project</p>	
 					</div>
+		</header>
+
+		<main id="container">
+			<div id="items1">
 				<div class="img" style="background-image:url('img/preview/preview (1).jpg" onclick="fullscr(1);"></div>	
 				<div class="img" style="background-image:url('img/preview/preview (5).jpg" onclick="fullscr(5);"></div>		
 			</div>

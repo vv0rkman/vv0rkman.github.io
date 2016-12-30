@@ -42,3 +42,16 @@ document.getElementById("fullscr").style.visibility="hidden";
 function downloadIMG(){
 document.location.href = "img/big/big"+Z+".jpg";
 };
+
+function showIT(target){
+hideAll();
+document.getElementById(target).style.visibility="visible";
+document.getElementById(target).style.height="300px";
+};
+
+function hideAll(){
+document.getElementById("contact").style.visibility="hidden";
+document.getElementById("contact").style.height="0px";
+document.getElementById("about").style.visibility="hidden";
+document.getElementById("about").style.height="0px";
+};
