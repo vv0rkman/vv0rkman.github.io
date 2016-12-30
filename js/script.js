@@ -26,7 +26,7 @@ window.onscroll = function(){
 
 function fullscr(z){
 Z = z;
-if (window.matchMedia( "(max-width: 800px)" ).matches) {
+if (window.matchMedia( "(orientation:portrait)" ).matches) {
 	downloadIMG();
 } else {
 	document.getElementById("fullscr_img").src="img/null.gif";	
