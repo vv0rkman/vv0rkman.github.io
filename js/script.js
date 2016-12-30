@@ -2,7 +2,7 @@ var i, c=7;
 var dest;
 var Z;
 
-function load(dest){
+function loadIMG(dest){
 var items = document.getElementById(dest);
 for (i=0;i<3;i++){
 		c++;
@@ -18,7 +18,7 @@ var wsize=300, l;
 window.onscroll = function(){
 	if ((document.body.scrollTop > wsize || document.documentElement.scrollTop > wsize)&&(c<=77)){
 		for (l=1;l<=3;l++){
-			load("items"+l);
+			loadIMG("items"+l);
 		}
 		wsize+=800;
 	document.getElementById("up").style.position="fixed";}
@@ -27,7 +27,7 @@ window.onscroll = function(){
 function fullscr(z){
 Z = z;
 if (window.matchMedia( "(max-width: 800px)" ).matches) {
-	download();
+	downloadIMG();
 } else {
 	document.getElementById("fullscr_img").src="img/null.gif";	
 	document.getElementById("fullscr").style.visibility="visible";
@@ -35,10 +35,10 @@ if (window.matchMedia( "(max-width: 800px)" ).matches) {
 }
 };
 
-function exit(){
+function closePRW(){
 document.getElementById("fullscr").style.visibility="hidden";
 };
 
-function download(){
+function downloadIMG(){
 document.location.href = "img/big/big"+Z+".jpg";
 };
