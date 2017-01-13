@@ -1,22 +1,38 @@
-var i, c=7;
+var i, c=7,k;
 var dest;
 var Z;
+
+var uniqueRandoms = [];
+var numRandoms = 85;
+function makeUniqueRandom() {
+    if (!uniqueRandoms.length) {
+        for (var i = 1; i < numRandoms; i++) {
+            uniqueRandoms.push(i);
+        }
+    }
+    var index = Math.floor(Math.random() * uniqueRandoms.length);
+    var val = uniqueRandoms[index];
+    uniqueRandoms.splice(index, 1);
+    return val;
+
+}
 
 function loadIMG(dest){
 var items = document.getElementById(dest);
 for (i=0;i<3;i++){
 		c++;
+		k = makeUniqueRandom();
 		var div = document.createElement("DIV");
 		div.setAttribute('class', 'img');
-		div.style.backgroundImage = "url('img/preview/preview ("+c+").jpg')";
-		div.setAttribute('onclick', "fullscr("+c+");");	
+		div.style.backgroundImage = "url('img/preview/preview ("+k+").jpg')";
+		div.setAttribute('onclick', "fullscr("+k+");");	
 		items.appendChild(div);
 }
 };
 
 var wsize=200, l;
 window.onscroll = function(){
-	if ((document.body.scrollTop > wsize || document.documentElement.scrollTop > wsize)&&(c<=77)){
+	if ((document.body.scrollTop > wsize || document.documentElement.scrollTop > wsize)&&(c<=85)){
 		for (l=1;l<=3;l++){
 			loadIMG("items"+l);
 		}
