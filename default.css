@@ -69,7 +69,7 @@ main{flex-direction:column;}
 #logo{width:600px;}
 .img{width:90vw;height:90vw;opacity:1;margin:.7%;max-width:700px;max-height:700px;}
 .buttons{display:flex;flex-direction:column;text-align:center;margin:6px;}
-.buttons a{padding:17px;margin:0;font-size:32px;}
+.buttons a{padding:17px;margin:0;font-size:20%;}
 .buttons a:hover{background-color:#f3f3f3;}
 footer{font-size:32px;}
 }
