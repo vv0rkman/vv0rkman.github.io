@@ -67,9 +67,10 @@ a{color:#707070;text-decoration:none;}
 @media all and (orientation:portrait)  {
 main{flex-direction:column;}
 #logo{width:600px;}
-.img{width:90vw;height:90vw;opacity:1;margin:.7%;max-width:700px;max-height:700px;}
+.img{opacity:1;margin:.7%;max-width:700px;max-height:700px;width:90vw;height:90vw;}
 .buttons{display:flex;flex-direction:column;text-align:center;margin:6px;}
-.buttons a{padding:17px;margin:0;font-size:6vh;}
+.buttons a{padding:17px;margin:0;font-size:5vw;}
 .buttons a:hover{background-color:#f3f3f3;}
-footer{font-size:32px;}
+#contact, #about {font-size:4vw;}
+footer{font-size:4vw;}
 }
