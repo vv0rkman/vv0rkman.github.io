@@ -3,7 +3,7 @@ var dest;
 var Z;
 
 var uniqueRandoms = [];
-var numRandoms = 94;
+var numRandoms = 84;
 function makeUniqueRandom() {
     if (!uniqueRandoms.length) {
         for (var i = 1; i < numRandoms; i++) {
